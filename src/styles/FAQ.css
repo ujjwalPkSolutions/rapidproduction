@@ -1,0 +1,136 @@
+.faq-container {
+    width: 100%;
+    max-width: 1000px;
+    font-family: Arial, sans-serif;
+    color: black;
+  }
+  
+  h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .faq-item {
+    border-bottom: 1px solid #ddd;
+    padding: 10px 0;
+  }
+  
+  .question {
+    font-weight: bold;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .question::after {
+    content: "+";
+    font-weight: bold;
+  }
+  
+  .faq-item.active .question::after {
+    content: "-";
+  }
+  
+  .answer {
+    display: none;
+    padding: 10px 0;
+    color: #555;
+  }
+  
+  .faq-item.active .answer {
+    display: block;
+  }
+  
+
+  .faq-container {
+    width: 80%;
+    max-width: 1000px;
+    margin: auto;
+    font-family: Arial, sans-serif;
+    color: black;
+    font-size: 18px; /* Increased font size */
+    padding: 20px; /* Increased padding for more height */
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 24px; /* Increased font size for heading */
+}
+
+.faq-item {
+    border-bottom: 1px solid #ddd;
+    padding: 20px 0; /* Increased padding for more height */
+    font-size: 18px; /* Increased font size */
+}
+
+.question {
+    font-weight: bold;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.question::after {
+    content: "+";
+    font-weight: bold;
+}
+
+.faq-item.active .question::after {
+    content: "-";
+}
+
+.answer {
+    display: none;
+    padding: 15px 0; /* Increased padding for more height */
+    color: #555;
+    font-size: 16px; /* Increased font size */
+}
+
+.faq-item.active .answer {
+    display: block;
+}
+
+
+.faq-container {
+    width: 80%;
+    max-width: 1000px;
+    margin: auto;
+    font-family: Arial, sans-serif;
+    color: black;
+    font-size: 18px;
+    padding: 20px;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+
+.faq-item {
+    border-bottom: 1px solid #ddd;
+    padding: 20px 0;
+    font-size: 18px;
+}
+
+.question {
+    font-weight: bold;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.answer {
+    display: none; /* Hidden by default */
+    padding: 15px 0;
+    color: #555;
+    font-size: 16px;
+}
+
+.answer.show {
+    display: block; /* Show the answer when the .show class is applied */
+}
