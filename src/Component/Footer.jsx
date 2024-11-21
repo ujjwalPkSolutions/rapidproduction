@@ -16,7 +16,7 @@ function Footer() {
                 An Auto Transportation Agency you can rely on regards shipping
                 your loveable Vehicles from one part of the nation to another
                 with hassle free Cars Shipping Process since 2012.
-              </p>
+              </p>    
             </div>
 
             {/* Column 2: Quick Links */}
